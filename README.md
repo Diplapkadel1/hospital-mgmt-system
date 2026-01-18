@@ -1,52 +1,28 @@
-# 🏥 Helping Hand Hospital Management System
+<h1 align="center">Hi 👋, I'm Diplap kadel</h1>
+<h3 align="center">A passionate frontend developer from nepal</h3>
 
-A professional, high-end, and open-source hospital management website. This system features a modern bento-grid layout, fully responsive clinical UI, and secure patient registration modules.
+- 🔭 I’m currently working on [cinema-bakta](https://github.com/Diplapkadel1/cinema-vakta)
 
-**Developer:** Diplap Kadel  
-**Project Status:** Open Source / Production Ready
+- 🌱 I’m currently learning **html,CSS,js,php,laravel,python**
 
----
+- 👯 I’m looking to collaborate on [url-shortener](https://github.com/Diplapkadel1/ow)
 
-## 🚀 Key Features
-- **Modern Medical UI:** Clean "Clinical White" and "Deep Navy" color palette.
-- **Bento-Style Gallery:** Dynamic, interactive facility gallery with hover effects.
-- **Top-Bar Navigation:** Professional sticky header with emergency contact access.
-- **Secure Registration:** Patient and Disability forms protected by PHP Prepared Statements.
-- **Fully Responsive:** Optimized for Mobile, Tablet, and Desktop using CSS Clamp typography.
-- **Success UI:** Professional feedback cards for form submissions.
+- 🤝 I’m looking for help with [home-page-firefox](https://github.com/Diplapkadel1/firefox-home-page-html-css-js-)
 
----
+- 👨‍💻 All of my projects are available at [https://github.com/Diplapkadel1](https://github.com/Diplapkadel1)
 
-## 🛠️ Installation & Setup
+- 💬 Ask me about **html ,CSS , js ,php**
 
-To run this project, you need a local server environment like **XAMPP**, **WAMP**, or **MAMP**.
+- 📫 How to reach me **official.diplap.np@gmail.com**
 
-### 1. Database Configuration
-1. Open **phpMyAdmin**.
-2. Create a new database named `hospital_db`.
-3. Go to the **SQL** tab and paste the following queries to create the tables:
+- ⚡ Fun fact **I am funny**
 
-```sql
-CREATE TABLE patients (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    first_name VARCHAR(50) NOT NULL,
-    last_name VARCHAR(50) NOT NULL,
-    age INT NOT NULL,
-    gender VARCHAR(20) NOT NULL,
-    address TEXT NOT NULL,
-    contact_number VARCHAR(15) NOT NULL,
-    medical_history TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://fb.com/diplap.kadel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="diplap.kadel" height="30" width="40" /></a>
+<a href="https://instagram.com/simply-diplap" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="simply-diplap" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/vocalreplay" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="vocalreplay" height="30" width="40" /></a>
+</p>
 
-CREATE TABLE disabilities (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    first_name VARCHAR(50) NOT NULL,
-    last_name VARCHAR(50) NOT NULL,
-    age INT NOT NULL,
-    gender VARCHAR(20) NOT NULL,
-    address TEXT NOT NULL,
-    contact_number VARCHAR(15) NOT NULL,
-    disability_details TEXT NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
