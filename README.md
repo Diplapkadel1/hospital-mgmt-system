@@ -20,8 +20,6 @@
 <p>To run this project, you need a local server environment like <strong>XAMPP</strong>, <strong>WAMP</strong>, or <strong>MAMP</strong>.</p>
 
 <h3>1. Database Configuration</h3>
-<p>Open phpMyAdmin, create a database named <code>hospital_db</code>, then paste the following SQL:</p>
-
 <pre>
 CREATE TABLE patients (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -49,8 +47,6 @@ CREATE TABLE disabilities (
 </pre>
 
 <h3>2. File Configuration</h3>
-<p>Edit <code>db.php</code> to match your local server configuration:</p>
-
 <pre>
 &lt;?php
 $servername = "localhost";
@@ -68,17 +64,15 @@ if ($conn-&gt;connect_error) {
 <h2>⚙️ Customization</h2>
 <ul>
   <li><strong>Change Branding Colors:</strong> Edit variables in <code>home.css</code>:
-    <pre>
+<pre>
 :root {
     --primary: #004a99;
     --secondary: #00a8cc;
     --accent: #e74c3c;
 }
-    </pre>
+</pre>
   </li>
-  <li><strong>Update Contact Info:</strong> Edit <code>&lt;div class="top-bar"&gt;</code> and <code>&lt;footer&gt;</code> in 
-    <code>index.php</code>, <code>information.php</code>, <code>general_form.php</code>, <code>disability_form.php</code>.
-  </li>
+  <li><strong>Update Contact Info:</strong> Edit <code>&lt;div class="top-bar"&gt;</code> and <code>&lt;footer&gt;</code> in <code>index.php</code>, <code>information.php</code>, <code>general_form.php</code>, <code>disability_form.php</code></li>
 </ul>
 
 <h2>📂 Project Structure</h2>
@@ -129,6 +123,23 @@ if ($conn-&gt;connect_error) {
   <li>GitHub: <a href="https://github.com/Diplapkadel1" target="_blank">https://github.com/Diplapkadel1</a></li>
   <li>Email: <a href="mailto:official.diplap.np@gmail.com">official.diplap.np@gmail.com</a></li>
 </ul>
+
+<h3>Connect with me:</h3>
+<p>
+<a href="https://fb.com/diplap.kadel" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40"></a>
+<a href="https://instagram.com/simply-diplap" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40"></a>
+<a href="https://www.youtube.com/c/vocalreplay" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" height="30" width="40"></a>
+</p>
+
+<h3>Languages and Tools:</h3>
+<p>
+<a href="#" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="40" height="40"></a>
+<a href="#" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="40" height="40"></a>
+<a href="#" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JS" width="40" height="40"></a>
+<a href="#" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40"></a>
+<a href="#" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="Laravel" width="40" height="40"></a>
+<a href="#" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"></a>
+</p>
 
 <h2>📄 License</h2>
 <p>Distributed under the MIT License. See <code>LICENSE</code> for more information.</p>
