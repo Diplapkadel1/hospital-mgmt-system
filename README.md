@@ -18,7 +18,7 @@
 
 <h2>🌐 Demo</h2>
 <p>Check out the live demo of the Helping Hand Hospital Management System:</p>
-<p><a href="https://nepalwebsite.ct.ws/" target="_blank">https://nepalwebsite.ct.ws/</a></p>
+<p><iframe src="https://nepalwebsite.ct.ws/" target="_blank">https://nepalwebsite.ct.ws/</iframe></p>
 
 <h2>🛠️ Installation & Setup</h2>
 <p>To run this project, you need a local server environment like <strong>XAMPP</strong>, <strong>WAMP</strong>, or <strong>MAMP</strong>.</p>
