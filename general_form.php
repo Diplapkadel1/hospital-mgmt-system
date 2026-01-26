@@ -6,38 +6,13 @@
     <title>Patient Registration | Helping Hand Hospital</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="home.css"> <!-- Import home.css for the header/footer styles -->
+    <link rel="stylesheet" href="home.css"> <!-- Shared styles -->
     <link rel="stylesheet" href="general.css"> <!-- Form specific styles -->
 </head>
 <body>
-    <!-- Top Bar (Consistent with Index) -->
-    <div class="top-bar">
-        <div class="container">
-            <span>📍 123 Healthcare Way, Medical District</span>
-            <span>📞 Emergency: (555) 012-3456</span>
-        </div>
-    </div>
 
-    <!-- Main Header -->
-    <header class="main-header">
-        <div class="container header-flex">
-            <div class="logo">
-                <span class="icon">🏥</span> Helping Hand <span class="bold">Hospital</span>
-            </div>
-            <nav id="nav-menu">
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="information.php">Hospital Information</a></li>
-                    <li><a href="general_form.php" class="active">General Form</a></li>
-                    <li><a href="disability_form.php">Disability Form</a></li>
-                    <li><a href="#" class="btn-emergency">Emergency</a></li>
-                </ul>
-            </nav>
-            <button id="toggleNav" class="mobile-toggle">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
-    </header>
+    <!-- Universal Navigation Include -->
+    <?php include 'navbar.php'; ?>
 
     <main class="form-page">
         <div class="container">
@@ -104,7 +79,7 @@
         </div>
     </footer>
 
-    <!-- Use the fixed home.js for navigation -->
+    <!-- Scripts -->
     <script src="home.js"></script>
     <script>
         // Form specific validation logic
