@@ -10,34 +10,8 @@
     <link rel="stylesheet" href="information.css"> <!-- Specific Content Styles -->
 </head>
 <body>
-    <!-- Top Contact Bar -->
-    <div class="top-bar">
-        <div class="container">
-            <span>📍 123 Healthcare Way, Medical District</span>
-            <span>📞 Emergency: (555) 012-3456</span>
-        </div>
-    </div>
 
-    <!-- Main Header -->
-    <header class="main-header">
-        <div class="container header-flex">
-            <div class="logo">
-                <span class="icon">🏥</span> Helping Hand <span class="bold">Hospital</span>
-            </div>
-            <nav id="nav-menu">
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="information.php" class="active">Hospital Information</a></li>
-                    <li><a href="general_form.php">General Form</a></li>
-                    <li><a href="disability_form.php">Disability Form</a></li>
-                    <li><a href="#" class="btn-emergency">Emergency</a></li>
-                </ul>
-            </nav>
-            <button id="toggleNav" class="mobile-toggle">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
-    </header>
+    <?php include 'navbar.php'; ?>
 
     <main>
         <!-- About Section -->
