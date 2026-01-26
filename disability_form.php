@@ -10,34 +10,9 @@
     <link rel="stylesheet" href="disability.css"> <!-- Specific form styles -->
 </head>
 <body>
-    <!-- Top Contact Bar -->
-    <div class="top-bar">
-        <div class="container">
-            <span>📍 123 Healthcare Way, Medical District</span>
-            <span>📞 Emergency: (555) 012-3456</span>
-        </div>
-    </div>
 
-    <!-- Main Header -->
-    <header class="main-header">
-        <div class="container header-flex">
-            <div class="logo">
-                <span class="icon">🏥</span> Helping Hand <span class="bold">Hospital</span>
-            </div>
-            <nav id="nav-menu">
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="information.php">Hospital Information</a></li>
-                    <li><a href="general_form.php">General Form</a></li>
-                    <li><a href="disability_form.php" class="active">Disability Form</a></li>
-                    <li><a href="#" class="btn-emergency">Emergency</a></li>
-                </ul>
-            </nav>
-            <button id="toggleNav" class="mobile-toggle">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
-    </header>
+    <!-- Universal Navigation Include -->
+    <?php include 'navbar.php'; ?>
 
     <main class="form-page">
         <div class="container">
@@ -108,13 +83,14 @@
         </div>
     </footer>
 
-    <!-- Integrated fixed JS -->
+    <!-- JS Scripts -->
     <script src="home.js"></script>
     <script>
         function validateDisabilityForm() {
             const phone = document.getElementById('contact_number').value.trim();
             const age = parseInt(document.getElementById('age').value);
             
+            // Standard validation for phone and age
             const phoneRegex = /^(97|98)\d{8}$/;
             if (!phoneRegex.test(phone)) {
                 alert("Please enter a valid phone number (starting 97/98).");
