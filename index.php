@@ -35,23 +35,23 @@
                 
                 <div class="image-gallery">
                     <div class="gallery-item large">
-                        <img src="image/photo1.jpg" alt="Modern Ward">
+                        <img src="photo1.jpg" alt="Modern Ward">
                         <div class="gallery-overlay"><span>In-Patient Wards</span></div>
                     </div>
                     <div class="gallery-item">
-                        <img src="image/photo2.jpg" alt="Surgery">
+                        <img src="photo2.jpg" alt="Surgery">
                         <div class="gallery-overlay"><span>Operation Theater</span></div>
                     </div>
                     <div class="gallery-item">
-                        <img src="image/photo3.jpg" alt="Lab">
+                        <img src="photo3.jpg" alt="Lab">
                         <div class="gallery-overlay"><span>Diagnostic Lab</span></div>
                     </div>
                     <div class="gallery-item wide">
-                        <img src="image/photo4.jpg" alt="Clinic">
+                        <img src="photo4.jpg" alt="Clinic">
                         <div class="gallery-overlay"><span>Out-Patient Clinic</span></div>
                     </div>
                     <div class="gallery-item">
-                        <img src="image/photo5.jpg" alt="Care">
+                        <img src="photo5.jpg" alt="Care">
                         <div class="gallery-overlay"><span>Emergency Unit</span></div>
                     </div>
                 </div>
