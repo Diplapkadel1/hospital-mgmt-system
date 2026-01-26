@@ -8,36 +8,9 @@
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <div class="top-bar">
-        <div class="container">
-            <div class="top-bar-content">
-                <span>📍 123 Healthcare Way, Medical District</span>
-                <span>📞 Emergency: (555) 012-3456</span>
-            </div>
-        </div>
-    </div>
 
-    <header class="main-header">
-        <div class="container header-flex">
-            <div class="logo">
-                <span class="icon">🏥</span> Helping Hand <span class="bold">Hospital</span>
-            </div>
-            
-            <nav id="nav-menu">
-                <ul>
-                    <li><a href="index.php" class="active">Home</a></li>
-                    <li><a href="information.php">Information</a></li>
-                    <li><a href="general_form.php">General Form</a></li>
-                    <li><a href="disability_form.php">Disability Form</a></li>
-                    <li><a href="#" class="btn-emergency">Emergency</a></li>
-                </ul>
-            </nav>
-
-            <button id="toggleNav" class="mobile-toggle" aria-label="Toggle Navigation">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
-    </header>
+    <!-- This one line loads the Top bar, Desktop Header, AND the Mobile Bottom Nav -->
+    <?php include 'navbar.php'; ?>
 
     <main>
         <section class="hero">
@@ -60,7 +33,6 @@
                     <p>Experience healthcare in a comfortable, high-tech environment.</p>
                 </div>
                 
-                <!-- Interesting Bento Grid Layout -->
                 <div class="image-gallery">
                     <div class="gallery-item large">
                         <img src="image/photo1.jpg" alt="Modern Ward">
@@ -100,6 +72,7 @@
                         <li><a href="information.php">About Us</a></li>
                         <li><a href="general_form.php">Patient Registration</a></li>
                         <li><a href="disability_form.php">Specialized Care</a></li>
+                        <li><a href="admin_panel.php">Staff Login (Admin)</a></li>
                     </ul>
                 </div>
             </div>
